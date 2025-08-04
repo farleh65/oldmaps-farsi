@@ -1,0 +1,52 @@
+body {
+  font-family: Vazir, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.search {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.search label {
+  margin-left: 10px;
+}
+
+input[type="text"], input[type="range"] {
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.map {
+  padding: 20px;
+  text-align: center;
+}
+
+#map {
+  background-color: #ddd;
+  height: 300px;
+  border: 2px dashed #aaa;
+  line-height: 300px;
+  font-size: 18px;
+  color: #555;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
