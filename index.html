@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>نقشه‌های تاریخی آنلاین</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>نقشه‌های تاریخی آنلاین</h1>
+  </header>
+
+  <section class="search">
+    <label>نام مکان:</label>
+    <input type="text" id="locationInput" placeholder="مثلاً شیراز">
+    <label>سال:</label>
+    <input type="range" id="yearRange" min="1700" max="1950" value="1850">
+    <span id="yearLabel">1850</span>
+  </section>
+
+  <section class="map">
+    <div id="map"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 نقشه‌های تاریخی آنلاین</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
